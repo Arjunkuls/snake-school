@@ -71,7 +71,7 @@ function draw() {
   snake.show();
   textSize(1)
   text(snake.body.length, 1, 1)
-  text(nowq, 10, 1)
+  text(nowq, 5, 1)
 
 
   if (snake.endGame(answerwrong1, answerwrong2)) {
