@@ -39,6 +39,7 @@ function foodLocation() {
   answercorrect = createVector(floor(random(w)), floor(random(h)));
   answerwrong1 = createVector(floor(random(w)), floor(random(h)));
   answerwrong2 = createVector(floor(random(w)), floor(random(h))); 
+  alert(nowq)
 
 }
 
@@ -71,7 +72,6 @@ function draw() {
   snake.show();
   textSize(1)
   text(snake.body.length, 1, 1)
-  text(nowq, 5, 580)
 
 
   if (snake.endGame(answerwrong1, answerwrong2)) {
