@@ -12,11 +12,11 @@ let wrong, wrong2;
 // let wronglist = ["not maths", "Maths is not mela"]
 
 var qlist = ["Find the amount due on rs.2620 at 5% per annum for 3 years.", 
-"Find the period after which an interest of T1127 will be obtained on R2300 at the rate of 14% per annum",
-"Find the rate at which 7000 will double itself in 8 years.",
-"Seeta borrows 100600 at 7% p.a. for 2.5 years. What simple  interest will she have to pay?"
+"Find the simple interest if principal = ₹2000, rate=5%, time= 5 years",
+"Find the simple interest if principal = ₹500, rate=12.5%, time= 4 years",
+"Find the simple interest if principal = ₹4500, rate=4%, time= 6 months"
 ]
-var anslist = ["393", "3y 6m", "12.5%", "17605"]
+var anslist = ["₹393", "₹500", "₹250", "₹90"]
 
 const database = firebase.database();
 
