@@ -39,8 +39,10 @@ function setup() {
 function foodLocation() {
   rannum = floor(random(0, qlist.length))
   nowq = qlist[rannum]
-  wrong= floor(random(0, 10000))
-  wrong2 = floor(random(0, 10000))
+  wrongnum= floor(random(0, 10000))
+  wrongnum2 = floor(random(0, 10000))
+  wrong = "₹" + wrongnum.toString()
+  wrong2 = "₹" + wrongnum2.toString()
   answercorrect = createVector(floor(random(w)), floor(random(h)));
   answerwrong1 = createVector(floor(random(w)), floor(random(h)));
   answerwrong2 = createVector(floor(random(w)), floor(random(h))); 
