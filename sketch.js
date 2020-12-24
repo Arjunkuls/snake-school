@@ -18,8 +18,10 @@ var qlist = ["Find the amount due on rs.2620 at 5% per annum for 3 years.",
 "Find the simple interest if principal = ₹236, rate=80%, time=17 years",
 "Find the amount if principal = ₹2000, rate=5%, time= 5 years",
 "Find the amount if principal = ₹500, rate=12.5%, time= 4 years",
+"Find the amount if principal = ₹4500, rate=4%, time= 6 months",
+"Find the amount if principal = ₹236, rate=80%, time=17 years",
 ]
-var anslist = ["₹393", "₹500", "₹250", "₹90", "3209.6", "2500", "750"]
+var anslist = ["₹393", "₹500", "₹250", "₹90", "3209.6", "2500", "750", "4590", "3445.6"]
 
 const database = firebase.database();
 
